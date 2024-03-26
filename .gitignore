@@ -1,0 +1,7 @@
+# Ignorar archivos temporales
+*.tmp
+
+# Ignorar directorios y archivos específicos
+node_modules/
+build/
+.env
