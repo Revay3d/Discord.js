@@ -29,7 +29,7 @@
 >[!CAUTION]
 >Si tienes slach commands debes crearlos o subirlos a discord para ello usa:
 >```Bash
->npm run deply
+>npm run deploy
 >```
 
 >[!TiP]
