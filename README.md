@@ -25,6 +25,33 @@
 
 ## Personalización
 ⚠ Por favor, sigue los siguientes pasos para configurar el bot y evitar cualquier error. Los pasos estarán detallados minuciosamente para aquellas personas que puedan tener dificultades para entender o asimilar la información. 😊
+>[!NOTE]
+>Deveras instalar los modulos de Node.js.
+>```Bash
+>npm install
+>```
+
+
+
+1. Coloca tu token
+>[!TIP]
+>Crea un archivo ``.env`` para tu token como el archivo de ejemplo de ``.env.example``
+>```.env
+>token=TU_TOKEN
+>```
+
+>[!NOTE]
+>Debes activar la opcion de desarrollador para hacer lo siguiente.
+
+2. configurar el ``config``
+   > Remplasa ``ID_BOT`` con el id de tu bot y ``ID_SERVER`` con el id del servidor donde esta el bot.
+ ```json
+{
+    "prefix":"+",
+    "clientId":"ID_BOT",
+    "guildId":"ID_SERVER"
+}
+ ```
 
 >[!CAUTION]
 >Si tienes slach commands debes crearlos o subirlos a discord para ello usa:
@@ -37,27 +64,6 @@
 >```Bash
 >npm run start
 >```
-
-1. Coloca tu token
->[!TIP]
->Crea un archivo ``.env`` para tu token como el archivo de ejemplo de ``.env.example``
->```.env
->token=TU_TOKEN
->```
-
-
-2. configurar el ``config``
-   > Remplasa ``ID_BOT`` con el id de tu bot y ``ID_SERVER`` con el id del servidor donde esta el bot.
- ```json
-{
-    "prefix":"+",
-    "clientId":"ID_BOT",
-    "guildId":"ID_SERVER"
-}
- ```
->[!NOTE]
->Debes activar la opcion de desarrollador para hacer el paso anterior.
-
 
 3. Personaliza el codigo :)
 
