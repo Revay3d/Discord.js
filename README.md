@@ -1,5 +1,5 @@
 ## Bot de discord js 🤖
- Este codigo basico pero muy bien detallado y facil de usar es para los usuarios que quieren un bot propio o no saben hacer unbon como yo, este codigo es publico y pueden ayudar a que sea mas completo
+ Este codigo basico pero muy bien detallado y facil de usar es para los usuarios que quieren un bot propio o no saben hacer un, como yo, este codigo es publico y pueden ayudar a que sea mas completo
 
 >[!IMPORTANT]
 >Este codigo tiene una licensia ``MIT``
