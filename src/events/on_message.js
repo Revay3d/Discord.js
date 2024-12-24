@@ -1,6 +1,4 @@
-import config from "../config.json" assert { type: "json" };
-
-const { prefix } = config;
+import { prefix } from "../config.js";
 
 export default {
   name: "messageCreate",

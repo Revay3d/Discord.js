@@ -1,13 +1,9 @@
 import { Client, Collection } from "discord.js";
 import fs from "node:fs";
+import { token } from "./config";
 
 const client = new Client({ intents: 3276799 });
 client.commands = new Collection();
-
-// const config = require("./config.json");
-// const { token } = config;
-
-import "dotenv/config";
 
 // Cargar los comandos
 client.slashCommands = new Collection();
@@ -47,5 +43,5 @@ async function handlers() {
 }
 
 handlers().then(() => {
-  client.login(process.env.token);
+  client.login(token);
 });
