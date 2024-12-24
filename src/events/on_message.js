@@ -1,8 +1,8 @@
-const config = require("../config.json");
+import config from "../config.json" assert { type: "json" };
 
 const { prefix } = config;
 
-module.exports = {
+export default {
   name: "messageCreate",
 
   async execute(message, client) {

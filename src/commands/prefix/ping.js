@@ -1,6 +1,6 @@
 // Archivo commands/say.js
 
-module.exports = {
+export default {
   data: {
     name: "ping",
     description: "El bot dira pong!",

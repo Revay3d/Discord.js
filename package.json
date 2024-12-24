@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-
     "deploy":"node utils/createCommands.js",
     "start":"node src/index.js"
   },
