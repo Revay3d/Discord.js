@@ -46,7 +46,7 @@
 2. configurar el ``.env``
    > Remplasa ``ID_BOT`` con el id de tu bot y ``ID_SERVER`` con el id del servidor donde esta el bot.
  ```.env
-    clientId="ID_BOT",
+    clientId="ID_BOT"
     guildId= "ID_SERVER"
 
  ```
