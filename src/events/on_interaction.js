@@ -1,6 +1,4 @@
-const fs = require("fs");
-
-module.exports = {
+export default {
   name: "interactionCreate",
   async execute(interaction, client) {
     if (interaction.isChatInputCommand()) {
